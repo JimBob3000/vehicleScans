@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%
+}
+
+#root {
+    min-height: 100%;
+}
+
+#hero {
+    background-image: url("../images/bg.jpg");
+}
+
+@font-face {
+    font-family: numberPlate;
+    src: url(numberPlate.ttf);
+}
+
+.numberPlateTrim {
+    width: 30px;
+    height: 50px;
+    background-color: rgb(132 204 22);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.numberPlate {
+    text-align: left;
+    font-family: numberPlate;
+    font-weight: 200;
+    font-size: 40px;
+    padding-left: 5px;
+    border: 0;
+    color: rgb(rgb(0, 0, 0), green, blue);
+    background-color: rgb(251, 191, 36);
+    width: 190px;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.numberPlate:focus {
+    border: 0;
+    margin: 0;
+    outline: none;
+
+}
