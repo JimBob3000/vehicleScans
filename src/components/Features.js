@@ -5,8 +5,8 @@ const Features = () => {
         Our Packages
       </h1>
       
-      <div className="xl:w-[1200px] lg:w-[1000px] w-[400px] lg:flex-row flex flex-col justify-center mx-auto">
-        <div className="lg:w-1/3 w-full mx-3 lg:pb-0 pb-11 drop-shadow-md">
+      <div className="sm:max-w-[380px] lg:max-w-[100%] xl:w-[1200px] lg:w-[1000px] w-[95%] lg:flex-row flex flex-col justify-center mx-auto">
+        <div className="sm:max-w-[380px] lg:w-1/3 w-full md:mx-3 lg:pb-0 pb-11 drop-shadow-md ">
           <div className="border flex flex-col rounded-xl hover:scale-105 transition duration-500 bg-white">
             <div className="mb-8 text-center font-medium pb-4 text-4xl px-8 pt-8 pb-7 rounded-t-lg text-white bg-gray-800">
               FREE!
@@ -33,7 +33,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="lg:w-1/3 w-full mx-3 lg:pb-0 pb-11 drop-shadow-md">
+        <div className="sm:max-w-[380px] lg:w-1/3 w-full md:mx-3 lg:pb-0 pb-11 drop-shadow-md">
           <div className="border flex flex-col rounded-xl hover:scale-105 transition duration-500 bg-white">
             <div className="mb-8 text-center font-medium pb-4 text-4xl px-8 pt-8 pb-7 rounded-t-lg text-white bg-gray-800">
               FREE!
@@ -60,7 +60,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="lg:w-1/3 w-full mx-3 drop-shadow-md">
+        <div className="sm:max-w-[380px] lg:w-1/3 w-full md:mx-3 drop-shadow-md">
           <div className="border flex flex-col rounded-xl hover:scale-105 transition duration-500 bg-white">
             <div className="mb-8 text-center font-medium pb-4 text-4xl px-8 pt-8 pb-7 rounded-t-lg text-white bg-gray-800">
               Coming soon

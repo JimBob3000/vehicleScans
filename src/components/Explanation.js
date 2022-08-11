@@ -4,7 +4,7 @@ import shield from '../images/shield.png';
 
 const Explanation = () => {
     return ( 
-        <section id="explanation" className="bg-white md:py-24 py-11">
+        <section id="explanation" className="bg-white pt-24 pb-0 md:py-24 py-11">
             <div className="">
                 <h1 className="pb-11 text-3xl m-auto justify-center flex md:flex-row text-center flex-col">
                     <span>Check before you buy,</span>
