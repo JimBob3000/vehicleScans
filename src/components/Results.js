@@ -6,7 +6,7 @@ const Results = () => {
     const packageSelected = sessionStorage.getItem("packageSelected")
 
     return (
-        <div className="">
+        <div className="flex-grow">
             {!motData &&
                 <p>No packages available for this vehicle.</p>
             }
