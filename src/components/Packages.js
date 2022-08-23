@@ -9,6 +9,7 @@ const Packages = () => {
     const navigate = useNavigate();
     const vrn = sessionStorage.getItem("vrn");
     const { data, isPending, error } = useFetch(process.env.REACT_APP_API_URL + 'mot/' + vrn);
+    console.log(process.env.REACT_APP_API_URL)
     sessionStorage.setItem("motData", JSON.stringify(data))
 
     const handleClickPackageOne = () => {

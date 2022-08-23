@@ -16,9 +16,9 @@ html, body {
 
 @font-face {
     font-family: numberPlate;    
-    src: url('numberPlate.woff2') format('woff2'),
-         url('numberPlate.woff')  format('woff'),
-         url('numberPlate.ttf')   format('truetype');
+    src: url('../../public/numberPlate.woff2') format('woff2'),
+         url('../../public/numberPlate.woff')  format('woff'),
+         url('../../public/numberPlate.ttf')   format('truetype');
 }
 
 .numberPlateTrim {
