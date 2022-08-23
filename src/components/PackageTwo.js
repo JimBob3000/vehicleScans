@@ -35,7 +35,7 @@ const PackageOne = () => {
             }
 
             {data && 
-                <div className="pt-32 pb-12 bg-white mx-auto text-center flex-grow justify-center xl:w-[1200px] lg:w-[1000px] w-[100%] mx-auto">
+                <div className="px-2 sm:px-4 md:px-8 lg:px-0 pt-32 pb-12 bg-white mx-auto text-center flex-grow justify-center xl:w-[1200px] lg:w-[1000px] w-[100%] mx-auto">
                     <h1 className="text-3xl text-gray-900 pb-12">Results for { vrn }</h1>
                     <section id="motData">
                         <h2 className="text-left text-2xl border-dashed border-y-2 py-1">Vehicle</h2>

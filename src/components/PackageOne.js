@@ -9,7 +9,7 @@ const PackageOne = () => {
     let commentId = 0
 
     return (
-        <section id="packageOne" className="pt-32 pb-12 bg-white mx-auto text-center flex-grow justify-center xl:w-[1200px] lg:w-[1000px] w-[100%] mx-auto">
+        <section id="packageOne" className="px-2 sm:px-4 md:px-8 lg:px-0 pt-32 pb-12 bg-white mx-auto text-center flex-grow justify-center xl:w-[1200px] lg:w-[1000px] w-[100%] mx-auto">
             <h1 className="text-3xl text-gray-900 pb-12">Results for { vrn }</h1>
 
             <section id="motData">

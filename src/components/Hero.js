@@ -14,7 +14,7 @@ const Hero = () => {
     return ( 
         <section id="hero" className="bg-no-repeat bg-center bg-cover h-screen relative">
             <div className="md:w-[650px] w-[95%] flex flex-col justify-center mx-auto h-screen" >
-                <div className="text-center  border border-slate-900 rounded-xl bg-white drop-shadow-3xl">
+                <div className="text-center rounded-xl bg-white drop-shadow-3xl">
                     <h1 className="rounded-t-lg text-white bg-gray-800 py-6 mb-8 font-extrabold md:text-4xl text-3xl">
                         Thinking of buying a used car?
                     </h1>

@@ -15,8 +15,10 @@ html, body {
 }
 
 @font-face {
-    font-family: numberPlate;
-    src: url(numberPlate.ttf);
+    font-family: numberPlate;    
+    src: url('numberPlate.woff2') format('woff2'),
+         url('numberPlate.woff')  format('woff'),
+         url('numberPlate.ttf')   format('truetype');
 }
 
 .numberPlateTrim {

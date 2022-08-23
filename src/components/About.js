@@ -14,7 +14,7 @@ const About = () => {
                 <p className="pb-4">Currently it can show you the MOT history, tax status and basic details of any UK vehicle.</p>
                 <p className="pb-4">In the future, I plan to have an additional package backed by data science!</p>
                 <p className="pb-4">I hope to display trends, find averages and predict issues accross all brands and models in the UK.</p>
-                <p className="pb-4">You can check out my YouTube, LinkedIn and GitHub using the links in the footer.</p>
+                <p className="pb-4">You can check out my LinkedIn, GitHub and GoLangHandbook site using the links in the footer.</p>
                 
                 <h1 className="text-3xl text-gray-900 py-12">Nerdy bit</h1>
                 <p className="pb-4">This site was made to give me a practical learning experience with new tech.</p>
