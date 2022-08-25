@@ -48,7 +48,7 @@ const PackageOne = () => {
                                 <p className="py-1"><b>Wheelplan:</b> {parsedDvlaData.wheelplan}</p>
                             </div>
                             <div className="flex flex-col text-left">
-                                <p className="py-1"><b>Date registered: </b> {moment(parsedMotData.firstUsedDate).format('MMM YYYY')}</p>
+                                <p className="py-1"><b>Date registered: </b> {moment(parsedMotData.firstUsedDate, 'YYYY.MM.DD').format('MMM YYYY')}</p>
                                 <p className="py-1"><b>Colour:</b> {parsedMotData.primaryColour}</p>
                                 <p className="py-1"><b>Engine:</b> {parsedDvlaData.engineCapacity}cc</p>
                                 <p className="py-1"><b>Emissions:</b> {parsedDvlaData.co2Emissions} g/km</p>
@@ -61,12 +61,12 @@ const PackageOne = () => {
                             {parsedDvlaData.taxStatus === 'Taxed' ? 
                                 <div className="flex flex-col text-center">
                                     <p className="font-bold text-5xl text-green-600">TAXED</p>
-                                    <p className="py-1"><b>Expires:</b> {moment(parsedDvlaData.taxDueDate).format('MMM YYYY')}</p>
+                                    <p className="py-1"><b>Expires:</b> {moment(parsedDvlaData.taxDueDate, 'YYYY.MM.DD').format('MMM YYYY')}</p>
                                 </div>
                             : 
                                 <div className="flex flex-col text-center">
                                     <p className="font-bold text-5xl text-red-500">{parsedDvlaData.taxStatus}</p>
-                                    <p className="py-1"><b>Expired:</b> {moment(parsedDvlaData.taxDueDate).format('MMM YYYY')}</p>
+                                    <p className="py-1"><b>Expired:</b> {moment(parsedDvlaData.taxDueDate, 'YYYY.MM.DD').format('MMM YYYY')}</p>
                                 </div>
                             }
                             
@@ -86,13 +86,13 @@ const PackageOne = () => {
                             <div className="border-dashed border-b-2" key={test.motTestNumber}>
                                 <div className="flex flex-col justify-center sm:flex-row sm:justify-between pt-4">
                                     <div className="text-2xl text-center sm:text-left">
-                                        <p className="pb-1 font-bold">{moment(test.completedDate).format('Do MMMM YYYY')}</p>
+                                        <p className="pb-1 font-bold">{moment(test.completedDate, 'YYYY.MM.DD').format('Do MMMM YYYY')}</p>
                                         <p className={test.testResult === "PASSED" ? "font-bold text-5xl text-green-600" : "font-bold text-5xl text-red-500"}>{test.testResult === "PASSED" ? "PASS" : "FAIL"}</p>
                                     </div>
                                     <div className="flex items-end text-left pt-4 sm:pt-0">
                                         <div>
                                             <p><b>Odometer:</b> {test.odometerValue} {test.odometerUnit}</p>
-                                            <p><b>Expiry date:</b> {test.testResult === "PASSED" ? moment(test.expiryDate).format('Do MMMM YYYY') : "N/A"}</p>
+                                            <p><b>Expiry date:</b> {test.testResult === "PASSED" ? moment(test.expiryDate, 'YYYY.MM.DD').format('Do MMMM YYYY') : "N/A"}</p>
                                         </div>
                                     </div>
                                 </div>
